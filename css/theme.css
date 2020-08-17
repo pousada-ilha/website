@@ -1,0 +1,199 @@
+body {
+  
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+
+
+/* Edited by Alan */
+
+body{
+	background: #544948 url(../img/bg-pagina.jpg) 50% 0 fixed no-repeat;
+}
+
+#topo-logo{
+	background: url("../img/bg-logo-topo.png");
+	height: 136px;
+	border-bottom: 2px solid #1e2129;
+}
+
+
+.nav>li>a {
+text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+font-size: 16px;
+padding: 15px 25px;
+color: #fff!important;
+}
+
+.navbar-inverse{
+	background: none;
+	border: none;
+	
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	background: #383f4a
+}
+.suite a{
+	color: #fff;
+	font-size: 17px;
+}
+
+
+
+
+
+
+
+.suiteList li{
+	padding: 6px 0px
+}
+
+
+/* Media Query 768px < 990px */
+
+@media (min-width: 768px) and (max-width: 990px) {
+
+.nav>li>a {
+
+padding: 15px 15px;
+
+}
+
+
+.smTop{
+	
+}
+
+}
+
+
+/* Media Query 768px */
+
+@media (max-width: 768px) {
+	.smTop{
+		
+	}
+
+	.navbar-inverse{
+		background: url("../img/bg-menu.png");
+		top:-1px;
+	}
+
+	.navbar-header{
+		text-align: center;
+	}
+	.navbar-toggle{
+		float: none;
+		padding-top: 5px;
+padding-bottom: 8px;
+	}
+	.logo-topo{
+		text-align: center;
+	}
+
+}
+
+
+
+
+table {
+	color: #fff;
+	border-radius: 10px
+}
+
+@media (max-width: 767px) {
+	.galeriaSuite{
+		width: 100%;
+		
+		margin-bottom: 10px
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.galeriaSuite{
+		width: 325px;
+		height: 210px;
+		margin-bottom: 10px
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	.galeriaSuite{
+		width:145px;
+		height: 90px;
+		margin-bottom: 10px
+	}
+}
+
+@media (min-width: 1200px){
+.galeriaSuite{
+		width:184px!important;
+		height: 120px!important;
+		margin-bottom: 18px
+	}
+}
+
+.topBarAr{
+	  padding: 10px;
+  background: #1E2129;
+  margin-bottom: -20px;
+  color: #fff;
+  position: relative;
+  top: -18px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+
+/* Logo Agência Marca e Marketing */
+
+.logoIMM{
+    font-size: 12px;
+    color: #ececec;
+    text-decoration: none;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 14px;
+    width: 200px;
+    opacity: .6;
+    margin-bottom: 0px;
+    text-align: left;
+    
+}
+@media (min-width: 700px){
+.logoIMM{
+	float: right;
+}
+}
+.logoIMM:hover{
+    opacity: 1;
+}
+
+.logoIMM a{
+    text-decoration: none!important;
+    color: inherit;
+}
+
+.logoIMM img{
+    position: relative;
+    top: -2px;
+    margin-right: 6px;
+    float: left;
+}
+
+/****/
+
